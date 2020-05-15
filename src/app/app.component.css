@@ -1,0 +1,8 @@
+.uploadinput{
+    background-color: rgb(225, 225, 225);
+    width :48%;
+    float:left;
+    height:140px;
+    padding: 3%;
+    position :relative;
+}
