@@ -1,2 +1,9 @@
-<div class="uploadinput">Upload text input: Names separated by comma <button>Upload</button></div>
-      
+<div class="form-group">
+    <div class="fileupload"> 
+        <label for="file">Upload text file (Names separated by comma):</label>
+        <input type="file"
+            id="file" text="Upload" class="filebutton"
+            (change)="handleFileInput($event.target.files)">
+    </div>
+</div>    
+     
