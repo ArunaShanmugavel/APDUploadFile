@@ -1,7 +1,16 @@
-.uploadinput{
-    background-color: rgb(225, 225, 225);
-    width :47%;
-    float:left;
-    height:300px;
-    position :relative;
- margin:20px;}
+ .filebutton{
+    align-content: center;
+}
+
+.fileupload {
+    width: 30%;
+    height: 420px;
+    background-color: rgb(90, 194, 212);
+    color: #0e0405;
+    padding: 2%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
