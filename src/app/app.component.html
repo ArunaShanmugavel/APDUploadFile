@@ -2,8 +2,13 @@
     <div class="fileupload"> 
         <label for="file">Upload text file (Names separated by comma):</label>
         <input type="file"
-            id="file" text="Upload" class="filebutton"
+            id="file" text="Upload" class="filebutton" accept=".txt"
             (change)="handleFileInput($event.target.files)">
+        <div>
+            <input type="button" [hidden]="!isFileUploaded" value="Upload" id="uploadbutton" class="uploadbutton"/>
+            <small *ngIf="this.uploadedFile != null && this.uploadedFile[0].type !='text/plain'" class="text-danger">
+                Upload text file only
+            </small>
+        </div>
     </div>
-</div>    
-     
+</div>     
