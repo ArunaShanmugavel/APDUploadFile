@@ -1,16 +1,27 @@
- .filebutton{
-    align-content: center;
+.filebutton{
+    cursor: pointer;
+    margin: 10px;
 }
 
 .fileupload {
     width: 30%;
-    height: 420px;
-    background-color: rgb(90, 194, 212);
+    height: 440px;
+    background-color: #BEC5AD;
     color: #0e0405;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
     margin: 20px;
     border-radius: 10px;
     float: left;
-    position: relative;
 }
+
+.uploadbutton
+{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.text-danger {
+    color: red;
+    font-size: smaller;
+ }
